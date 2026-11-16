@@ -1,0 +1,74 @@
+{
+  "scope": "External development match means only; no supplied match data or predictions.",
+  "source": "external_metrics.json",
+  "source_sha256": "c224985f0bc9f8fe3211a367fde891baea02b37be5f11c722c4443266dff4ccc",
+  "dfl_matches": 7,
+  "metric": "spellF1",
+  "difference": "two-second minus three-second training",
+  "synthetic_example": "H:0-4, A:4-5, H:5-8, D:8-10, A:10-14; filtered H:0-8, D:8-10, A:10-14",
+  "rows": [
+    {
+      "input": "deg",
+      "reference": "raw",
+      "three_second_training": 0.5250291782704012,
+      "two_second_training": 0.5607111942103694,
+      "delta": 0.035682015939968226
+    },
+    {
+      "input": "deg",
+      "reference": "2s",
+      "three_second_training": 0.701537323948107,
+      "two_second_training": 0.7308675939191283,
+      "delta": 0.029330269971021283
+    },
+    {
+      "input": "deg",
+      "reference": "3s",
+      "three_second_training": 0.7407180107302075,
+      "two_second_training": 0.7376029788606314,
+      "delta": -0.003115031869576068
+    },
+    {
+      "input": "clean",
+      "reference": "raw",
+      "three_second_training": 0.5347775760741055,
+      "two_second_training": 0.5854025690505752,
+      "delta": 0.05062499297646972
+    },
+    {
+      "input": "clean",
+      "reference": "2s",
+      "three_second_training": 0.7106492708750306,
+      "two_second_training": 0.7426366089378282,
+      "delta": 0.03198733806279763
+    },
+    {
+      "input": "clean",
+      "reference": "3s",
+      "three_second_training": 0.7528262513204383,
+      "two_second_training": 0.7345699120006614,
+      "delta": -0.018256339319776993
+    },
+    {
+      "input": "ball_long_gaps_40",
+      "reference": "raw",
+      "three_second_training": 0.5131824434391581,
+      "two_second_training": 0.5574109300038399,
+      "delta": 0.04422848656468181
+    },
+    {
+      "input": "ball_long_gaps_40",
+      "reference": "2s",
+      "three_second_training": 0.6815946654636362,
+      "two_second_training": 0.7144915395232819,
+      "delta": 0.0328968740596457
+    },
+    {
+      "input": "ball_long_gaps_40",
+      "reference": "3s",
+      "three_second_training": 0.7269717590352073,
+      "two_second_training": 0.712108246362965,
+      "delta": -0.014863512672242285
+    }
+  ]
+}

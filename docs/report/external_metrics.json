@@ -1,0 +1,237 @@
+{
+  "scope": "arithmetic and identities in committed external result JSONs; no rescoring",
+  "robustness": {
+    "deg": {
+      "old": {
+        "raw": 0.5250291782704012,
+        "1s": 0.5994498898205348,
+        "1.5s": 0.6594902467541417,
+        "2s": 0.701537323948107,
+        "3s": 0.7407180107302075,
+        "fine": 0.6534924868409279
+      },
+      "new": {
+        "raw": 0.5607111942103694,
+        "1s": 0.6356833201410487,
+        "1.5s": 0.6937399282516674,
+        "2s": 0.7308675939191283,
+        "3s": 0.7376029788606314,
+        "fine": 0.6867636141039482
+      },
+      "ref3_worst_delta": -0.03332852984407875
+    },
+    "clean": {
+      "old": {
+        "raw": 0.5347775760741055,
+        "1s": 0.6095325090910161,
+        "1.5s": 0.6688855763641891,
+        "2s": 0.7106492708750306,
+        "3s": 0.7528262513204383,
+        "fine": 0.6630224521100786
+      },
+      "new": {
+        "raw": 0.5854025690505752,
+        "1s": 0.658795398521167,
+        "1.5s": 0.7116084679880368,
+        "2s": 0.7426366089378282,
+        "3s": 0.7345699120006614,
+        "fine": 0.7043468251490107
+      },
+      "ref3_worst_delta": -0.046615888094065916
+    },
+    "ball_long_gaps_40": {
+      "old": {
+        "raw": 0.5131824434391581,
+        "1s": 0.5847605756603453,
+        "1.5s": 0.6411801364716636,
+        "2s": 0.6815946654636362,
+        "3s": 0.7269717590352073,
+        "fine": 0.635845125865215
+      },
+      "new": {
+        "raw": 0.5574109300038399,
+        "1s": 0.6268603089607587,
+        "1.5s": 0.6790544971161586,
+        "2s": 0.7144915395232819,
+        "3s": 0.712108246362965,
+        "fine": 0.6734687818667331
+      },
+      "ref3_worst_delta": -0.05688137569221796
+    }
+  },
+  "status": "PASS",
+  "checked_aggregates": 444,
+  "errors": [],
+  "sc": {
+    "means": {
+      "M3@50/50/ref3": 0.6790844364863312,
+      "M3@50/50/ref2": 0.6790844364863312,
+      "M3@25/50/ref3": 0.678457515710083,
+      "M3@25/50/ref2": 0.678457515710083,
+      "M2@50/50/ref3": 0.6829035200980837,
+      "M2@50/50/ref2": 0.6829035200980837,
+      "M2@25/50/ref3": 0.674715223234219,
+      "M2@25/50/ref2": 0.674715223234219
+    },
+    "wins": 11,
+    "matches": 20
+  },
+  "two_second_reference_comparison": {
+    "source_path": "docs/experiments/20261116-e15/results/robust_eval.json",
+    "source_commit": "14afb4e4d7babb750fbf2f1e7df680d0db6df2c9",
+    "source_sha256": "e785fa10de3121ad3783e914713f3d791116bebefd8f8b28570379d33c87bed8",
+    "scope": "External DFL match scores only; no challenge data or per-frame predictions",
+    "conditions": [
+      {
+        "input": "deg",
+        "evaluation_reference": "2s",
+        "wins": 7,
+        "matches": 7,
+        "per_match": [
+          {
+            "match_id": "DFL-MAT-J03WMX",
+            "three_second_training": 0.7061913696060037,
+            "two_second_training": 0.7445255474452555,
+            "delta": 0.03833417783925175
+          },
+          {
+            "match_id": "DFL-MAT-J03WN1",
+            "three_second_training": 0.6634315424610052,
+            "two_second_training": 0.6894472361809045,
+            "delta": 0.026015693719899313
+          },
+          {
+            "match_id": "DFL-MAT-J03WOH",
+            "three_second_training": 0.7051124744376278,
+            "two_second_training": 0.7173745173745173,
+            "delta": 0.012262042936889483
+          },
+          {
+            "match_id": "DFL-MAT-J03WOY",
+            "three_second_training": 0.694927536231884,
+            "two_second_training": 0.7326241134751773,
+            "delta": 0.03769657724329334
+          },
+          {
+            "match_id": "DFL-MAT-J03WPY",
+            "three_second_training": 0.7393442622950819,
+            "two_second_training": 0.7828793774319067,
+            "delta": 0.04353511513682484
+          },
+          {
+            "match_id": "DFL-MAT-J03WQQ",
+            "three_second_training": 0.6932301740812379,
+            "two_second_training": 0.7308550185873607,
+            "delta": 0.0376248445061228
+          },
+          {
+            "match_id": "DFL-MAT-J03WR9",
+            "three_second_training": 0.7085239085239086,
+            "two_second_training": 0.7183673469387755,
+            "delta": 0.0098434384148669
+          }
+        ]
+      },
+      {
+        "input": "clean",
+        "evaluation_reference": "2s",
+        "wins": 7,
+        "matches": 7,
+        "per_match": [
+          {
+            "match_id": "DFL-MAT-J03WMX",
+            "three_second_training": 0.7163841807909604,
+            "two_second_training": 0.7424511545293073,
+            "delta": 0.026066973738346877
+          },
+          {
+            "match_id": "DFL-MAT-J03WN1",
+            "three_second_training": 0.672,
+            "two_second_training": 0.7273322422258592,
+            "delta": 0.055332242225859196
+          },
+          {
+            "match_id": "DFL-MAT-J03WOH",
+            "three_second_training": 0.7051546391752577,
+            "two_second_training": 0.7276923076923077,
+            "delta": 0.02253766851705008
+          },
+          {
+            "match_id": "DFL-MAT-J03WOY",
+            "three_second_training": 0.6876811594202898,
+            "two_second_training": 0.7439446366782007,
+            "delta": 0.05626347725791081
+          },
+          {
+            "match_id": "DFL-MAT-J03WPY",
+            "three_second_training": 0.7483606557377049,
+            "two_second_training": 0.8015296367112811,
+            "delta": 0.05316898097357614
+          },
+          {
+            "match_id": "DFL-MAT-J03WQQ",
+            "three_second_training": 0.71531190926276,
+            "two_second_training": 0.7257657657657657,
+            "delta": 0.010453856503005676
+          },
+          {
+            "match_id": "DFL-MAT-J03WR9",
+            "three_second_training": 0.7296523517382413,
+            "two_second_training": 0.7297405189620758,
+            "delta": 8.816722383453435e-05
+          }
+        ]
+      },
+      {
+        "input": "ball_long_gaps_40",
+        "evaluation_reference": "2s",
+        "wins": 7,
+        "matches": 7,
+        "per_match": [
+          {
+            "match_id": "DFL-MAT-J03WMX",
+            "three_second_training": 0.6975517890772128,
+            "two_second_training": 0.7169675090252708,
+            "delta": 0.01941571994805802
+          },
+          {
+            "match_id": "DFL-MAT-J03WN1",
+            "three_second_training": 0.6184347826086956,
+            "two_second_training": 0.6625407166123779,
+            "delta": 0.044105934003682346
+          },
+          {
+            "match_id": "DFL-MAT-J03WOH",
+            "three_second_training": 0.6878350515463918,
+            "two_second_training": 0.7195357833655706,
+            "delta": 0.03170073181917876
+          },
+          {
+            "match_id": "DFL-MAT-J03WOY",
+            "three_second_training": 0.670990990990991,
+            "two_second_training": 0.7024390243902439,
+            "delta": 0.03144803339925284
+          },
+          {
+            "match_id": "DFL-MAT-J03WPY",
+            "three_second_training": 0.737190082644628,
+            "two_second_training": 0.7787476280834914,
+            "delta": 0.041557545438863364
+          },
+          {
+            "match_id": "DFL-MAT-J03WQQ",
+            "three_second_training": 0.6838461538461538,
+            "two_second_training": 0.7216117216117215,
+            "delta": 0.03776556776556772
+          },
+          {
+            "match_id": "DFL-MAT-J03WR9",
+            "three_second_training": 0.6753138075313808,
+            "two_second_training": 0.6995983935742973,
+            "delta": 0.0242845860429165
+          }
+        ]
+      }
+    ]
+  }
+}

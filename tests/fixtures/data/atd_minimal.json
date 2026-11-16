@@ -1,0 +1,25 @@
+{
+  "provenance": "synthetic; hand-authored contract fixture, not match data",
+  "explanation": "Zero coordinates are observed; one partial NaN position is absent; frame ids are one-based.",
+  "teams": [
+    {"id": "H", "name": "Synthetic H"},
+    {"id": "A", "name": "Synthetic A"}
+  ],
+  "players": [
+    {"id": "Track 1", "team_id": "H"},
+    {"id": "Track 2", "team_id": "A"}
+  ],
+  "raw_lines": [
+    "1:0,0,0;NaN,0.5,NaN:0.5,0.25,0",
+    "2:0.2,0.2,0;0.9,0.8,0:NaN,NaN,NaN",
+    "3:0.3,0.3,0;0.8,0.7,0:NaN,0.4,NaN",
+    "4:0.4,0.4,0;0.7,0.6,0:0.6,0.5,0"
+  ],
+  "expected": {
+    "frame_ids": [1, 2, 3, 4],
+    "frame_indices": [0, 1, 2, 3],
+    "first_ball_m": [52.65, 17.0],
+    "first_home_player_m": [0.0, 0.0],
+    "first_away_observed": false
+  }
+}

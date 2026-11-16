@@ -1,0 +1,15 @@
+# Invented fixtures only. This exercises software; it measures no sporting performance.
+[[matches]]
+id = "synthetic-one"
+format = "synthetic"
+path = "../tests/fixtures/external/one.json"
+
+[[matches]]
+id = "synthetic-two"
+format = "synthetic"
+path = "../tests/fixtures/external/two.json"
+
+[[matches]]
+id = "synthetic-three"
+format = "synthetic"
+path = "../tests/fixtures/external/three.json"

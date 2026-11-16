@@ -1,0 +1,24 @@
+# Pinned technical contract; later rule clarification is recorded in docs/SOURCES.md.
+[challenge]
+name = "More Than a Hack 2027 - Phase 1"
+match = "BAR-ATH"
+frames = 199319
+fps = 25
+labels = ["H", "A", "D", "X"]
+rank_metric = "spellF1"
+tie_break = "macroF1"
+data_release = "2026-10-20"
+deadline = "2026-11-17"
+
+[alignment]
+tracking_index_base = 1
+submission_index_base = 0
+reference_source = "tactical"
+homography_input = "normalized_pitch"
+homography_output = "image_pixels"
+
+[upstream]
+url = "https://github.com/metrica-sports/more-than-a-hack-2027"
+commit = "f8f2629ff1e0985f81d7e59d8413678514ee1530"
+verified_on = "2026-11-03"
+

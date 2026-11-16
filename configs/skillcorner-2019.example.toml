@@ -1,0 +1,60 @@
+# Paths are relative to this manifest. Full JSON files are required, not LFS pointers.
+[provenance]
+source = "https://github.com/SkillCorner/opendata/tree/1ed50b775f93075c2a6d00d0d795f13b7b89709e"
+version = "1ed50b775f93075c2a6d00d0d795f13b7b89709e"
+license = "MIT"
+attribution = "Copyright 2020 SkillCorner"
+
+[[matches]]
+id = "SCL-2068"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/2068/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/2068/structured_data.json"
+
+[[matches]]
+id = "SCL-2269"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/2269/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/2269/structured_data.json"
+
+[[matches]]
+id = "SCL-2417"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/2417/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/2417/structured_data.json"
+
+[[matches]]
+id = "SCL-2440"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/2440/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/2440/structured_data.json"
+
+[[matches]]
+id = "SCL-2841"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/2841/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/2841/structured_data.json"
+
+[[matches]]
+id = "SCL-3442"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/3442/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/3442/structured_data.json"
+
+[[matches]]
+id = "SCL-3518"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/3518/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/3518/structured_data.json"
+
+[[matches]]
+id = "SCL-3749"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/3749/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/3749/structured_data.json"
+
+[[matches]]
+id = "SCL-4039"
+format = "skillcorner_legacy"
+match = "../data/external/skillcorner2019/data/matches/4039/match_data.json"
+tracking = "../data/external/skillcorner2019/data/matches/4039/structured_data.json"

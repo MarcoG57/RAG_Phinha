@@ -1,0 +1,9 @@
+[project]
+name = "rag-phinha"
+version = "0.1.0"
+description = "Training, evaluation and reproducible CPU inference for B4T possession estimation"
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[tool.uv]
+package = false

@@ -1,0 +1,30 @@
+RAG_Phinha
+Copyright 2026 Marco (MarcoG57), Casti (acastc03), and Ariel (Arielalvano).
+
+Original code by the three RAG_Phinha authors is licensed under the Apache
+License, Version 2.0. See LICENSE for the complete terms.
+
+Third-party code retains its original notices and applicable licences; see
+THIRD_PARTY_NOTICES.md and LICENSES/Metrica-Sports-MIT.md.
+
+The 24 selected B4T weight files in models/casti-ens4-joint-tta-c2/ are separately
+licensed by the three authors under Apache 2.0, to the extent of their rights;
+see WEIGHTS_LICENSE.md. This does not license datasets, supplied match assets
+or separately installed dependencies. Provenance and open restrictions remain
+documented in docs/SOURCES.md and docs/RAG_Phinha.md.
+
+Training-data attribution (datasets are not bundled):
+
+Sportec Solutions / DFL open data, Bassek et al. (2025), "An integrated dataset
+of spatiotemporal and event data in elite soccer", Scientific Data.
+Article DOI: https://doi.org/10.1038/s41597-025-04505-y
+Dataset DOI: https://doi.org/10.6084/m9.figshare.28196177.v1
+Dataset licence: Creative Commons Attribution 4.0 International (CC BY 4.0),
+https://creativecommons.org/licenses/by/4.0/
+Training applies the reference transformations and synthetic degradations
+described in docs/RAG_Phinha.md; no source dataset is redistributed here.
+
+SkillCorner Open Data, Copyright (c) 2020 SkillCorner. https://skillcorner.com
+MIT licence; full notice retained in LICENSES/SkillCorner-MIT.md.
+Source commits: 4340d274572876239c154c90bc507a9b3250a656 and
+1ed50b775f93075c2a6d00d0d795f13b7b89709e.

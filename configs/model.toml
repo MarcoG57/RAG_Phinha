@@ -1,0 +1,24 @@
+# Fixed hand evidence and joint decoder for the selected B4T model.
+[control]
+contact_scale_m = 1.5
+margin_scale_m = 1.0
+max_radius_m = 5.0
+
+[decoder]
+structure = "joint"
+switch_cost = 50.0
+
+[play_state]
+out_margin = 0.01
+out_weight = 1.0
+still_center_mps = 1.8
+still_scale_mps = 0.8
+still_weight = 0.5
+smooth_s = 1.0
+missing_ball_weight = 0.15
+fast_ball_mps = 12.0
+fast_ball_weight = 0.5
+alive_bias = 0.1
+
+[dead_decoder]
+switch_cost = 50.0
